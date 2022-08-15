@@ -7,7 +7,9 @@ import { Cliente } from '../cliente';
 })
 export class ListadoClienteComponent implements OnInit {
   public lista = [];
-  constructor() {}
+  constructor() {
+    
+  }
 
   ngOnInit() {
     this.lista[0] = new Cliente('Nahuel', 21, true);
